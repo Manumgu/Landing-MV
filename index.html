@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#1a1410" />
+  <meta name="description" content="MV, tú peña y cada día la de más gente. La peña de las fiestas de Archena." />
+  <meta property="og:title" content="MV, tú peña y cada día la de más gente" />
+  <meta property="og:description" content="La peña de las fiestas de Archena. Ven, sumérgete, quédate." />
+  <meta property="og:image" content="assets/cover-team.jpg" />
+  <meta property="og:type" content="website" />
+
+  <title>MV, tú peña y cada día la de más gente · Fiestas de Archena</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&family=Inter:wght@300;400;500;600&display=swap" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__brand" aria-label="Inicio">
+        <span class="nav__brand-mark">MV</span>
+        <span class="nav__brand-text">tu peña</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMenu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+
+      <nav class="nav__menu" id="navMenu">
+        <a href="#manifesto" class="nav__link">La peña</a>
+        <a href="#numeros" class="nav__link">Números</a>
+        <a href="#fiestas" class="nav__link">Fiestas</a>
+        <a href="#unirse" class="nav__link nav__link--cta">Unirme</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <img src="assets/cover-team.jpg" alt="La peña al completo en las fiestas de Archena" class="hero__img" />
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow">
+          <span class="hero__eyebrow-dot"></span>
+          Fiestas de Archena · 2026
+        </p>
+
+        <h1 class="hero__title">
+          <span class="hero__line">MV,</span>
+          <span class="hero__line hero__line--accent">tú peña</span>
+          <span class="hero__line">
+            y cada día <em>la de más gente</em>
+          </span>
+        </h1>
+
+        <p class="hero__subtitle">
+          No somos una peña. Somos la peña. Y aún no sabes lo que te estás perdiendo.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#unirse" class="btn btn--primary">
+            Quiero unirme
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="#manifesto" class="btn btn--ghost">Conocer la peña</a>
+        </div>
+      </div>
+
+      <a href="#manifesto" class="hero__scroll" aria-label="Bajar al contenido">
+        <span class="hero__scroll-line"></span>
+        <span>desliza</span>
+      </a>
+    </section>
+
+    <!-- ============ MANIFESTO ============ -->
+    <section class="manifesto" id="manifesto">
+      <div class="container">
+        <p class="section-eyebrow">— La peña en una línea</p>
+        <h2 class="section-title">
+          Tres palabras y <span class="text-accent">una promesa</span>.
+        </h2>
+
+        <div class="manifesto__grid">
+          <article class="manifesto__card">
+            <div class="manifesto__num">01</div>
+            <h3 class="manifesto__title">MV</h3>
+            <p class="manifesto__text">
+              Dos letras, una historia. Los que empezaron todo y los que vienen detrás empujando. Sin ellos, no hay peña.
+            </p>
+          </article>
+
+          <article class="manifesto__card manifesto__card--accent">
+            <div class="manifesto__num">02</div>
+            <h3 class="manifesto__title">Tú peña</h3>
+            <p class="manifesto__text">
+              Porque la peña no es nuestra, es tuya. Aquí entras como conocido y sales como familia. El que llega, se queda.
+            </p>
+          </article>
+
+          <article class="manifesto__card">
+            <div class="manifesto__num">03</div>
+            <h3 class="manifesto__title">Cada día, más gente</h3>
+            <p class="manifesto__text">
+              Creemos sin prisa pero sin pausa. Una cerveza, una conversación, un sí. Así se hace grande esto.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="stats" id="numeros">
+      <div class="container">
+        <p class="section-eyebrow section-eyebrow--light">— Lo que no te contamos en stories</p>
+        <h2 class="section-title section-title--light">Los números (que mienten a tu favor)</h2>
+
+        <div class="stats__grid">
+          <div class="stat">
+            <span class="stat__value" data-count="365">365</span>
+            <span class="stat__suffix">días</span>
+            <p class="stat__label">de peña activa sin parar</p>
+          </div>
+          <div class="stat">
+            <span class="stat__value" data-count="25">25</span>
+            <span class="stat__suffix">+</span>
+            <p class="stat__label">en la foto (y subiendo)</p>
+          </div>
+          <div class="stat">
+            <span class="stat__value" data-count="0">0</span>
+            <span class="stat__suffix">excusas</span>
+            <p class="stat__label">para no pasarlo bien</p>
+          </div>
+          <div class="stat">
+            <span class="stat__value" data-count="100">100</span>
+            <span class="stat__suffix">%</span>
+            <p class="stat__label">recomendado por colegas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FIESTAS / PRÓXIMAS CITAS ============ -->
+    <section class="fiestas" id="fiestas">
+      <div class="container">
+        <p class="section-eyebrow">— Apúntate al calendario</p>
+        <h2 class="section-title">Próximas <span class="text-accent">fiestas</span></h2>
+        <p class="section-lead">
+          No prometemos no fallar. Prometemos que si fallamos, lo pasamos el doble de bien la próxima vez.
+        </p>
+
+        <ul class="fiestas__list">
+          <li class="fiesta">
+            <div class="fiesta__date">
+              <span class="fiesta__day">15</span>
+              <span class="fiesta__month">AGO</span>
+            </div>
+            <div class="fiesta__body">
+              <h3 class="fiesta__title">Pregón y primer botellón</h3>
+              <p class="fiesta__text">
+                Abrimos boca en la plaza. Camiseta de la peña, hielo de más y un bluetooth que no puede fallar este año.
+              </p>
+              <span class="fiesta__tag">Plaza Mayor · 21:00</span>
+            </div>
+            <div class="fiesta__arrow" aria-hidden="true">→</div>
+          </li>
+
+          <li class="fiesta">
+            <div class="fiesta__date">
+              <span class="fiesta__day">22</span>
+              <span class="fiesta__month">AGO</span>
+            </div>
+            <div class="fiesta__body">
+              <h3 class="fiesta__title">Cena de la peña</h3>
+              <p class="fiesta__text">
+                La cena que sale cara y la cuenta que sale barata. Quien avisa no es traidor: trae el bolsillo lleno y la boca cerrada.
+              </p>
+              <span class="fiesta__tag">Restaurante La Era · 22:00</span>
+            </div>
+            <div class="fiesta__arrow" aria-hidden="true">→</div>
+          </li>
+
+          <li class="fiesta">
+            <div class="fiesta__date">
+              <span class="fiesta__day">30</span>
+              <span class="fiesta__month">AGO</span>
+            </div>
+            <div class="fiesta__body">
+              <h3 class="fiesta__title">Noche de fuegos y promesas</h3>
+              <p class="fiesta__text">
+                Castillo, brindis y ese momento en el que alguien dice <em>«el año que viene mejor»</em> y todos sabemos que sí.
+              </p>
+              <span class="fiesta__tag">Recinto de Fiestas · 00:00</span>
+            </div>
+            <div class="fiesta__arrow" aria-hidden="true">→</div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ UNIRSE ============ -->
+    <section class="unirse" id="unirse">
+      <div class="container">
+        <div class="unirse__card">
+          <p class="section-eyebrow section-eyebrow--light">— El proceso (spoiler: facilísimo)</p>
+          <h2 class="section-title section-title--light">
+            Tres pasos. <br />
+            <span class="text-accent">Una vida diferente.</span>
+          </h2>
+
+          <ol class="unirse__steps">
+            <li class="step">
+              <span class="step__num">1</span>
+              <h3 class="step__title">Dinos hola</h3>
+              <p class="step__text">Manda un mensaje al grupo. Cualquiera te contesta en menos de lo que tardas en leer esto.</p>
+            </li>
+            <li class="step">
+              <span class="step__num">2</span>
+              <h3 class="step__title">Ven a una quedada</h3>
+              <p class="step__text">No hace falta plan. Nos vemos, hablamos y, sin darte cuenta, ya tienes sitio reservado en la próxima.</p>
+            </li>
+            <li class="step">
+              <span class="step__num">3</span>
+              <h3 class="step__title">Pide la camiseta</h3>
+              <p class="step__text">Si has llegado hasta aquí, la camiseta te la has ganado. Como todos los de la foto.</p>
+            </li>
+          </ol>
+
+          <div class="unirse__cta">
+            <a href="#" class="btn btn--primary btn--lg">
+              Escribir al grupo
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="btn btn--ghost btn--lg">
+              Ver stories
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <span class="footer__mark">MV</span>
+          <p class="footer__slogan">tú peña, y cada día la de más gente.</p>
+        </div>
+
+        <nav class="footer__nav" aria-label="Enlaces del pie">
+          <a href="#manifesto">La peña</a>
+          <a href="#numeros">Números</a>
+          <a href="#fiestas">Fiestas</a>
+          <a href="#unirse">Unirme</a>
+        </nav>
+
+        <div class="footer__social" aria-label="Redes sociales">
+          <a href="#" class="footer__social-link" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="WhatsApp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M21 11.5a8.4 8.4 0 0 1-12.7 7.2L3 21l2.3-5.3A8.4 8.4 0 1 1 21 11.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="TikTok">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M14 4v10a4 4 0 1 1-4-4M14 4c0 2.8 2.2 5 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>Hecho con cariño y unas cuantas cañas en Archena. © <span id="year">2026</span> MV.</p>
+        <p class="footer__signoff">Y cada día, la de más gente.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
