@@ -5,12 +5,6 @@ Landing page oficial de la peña para las Fiestas de Archena.
 **Live:** https://mv.mmguillamon.com
 **Repo:** https://github.com/Manumgu/Landing-MV
 
-**Custom agents** (GitHub Copilot) en [`.github/agents/`](.github/agents/):
-- `explore.md` — exploración read-only del código
-- `implementer.md` — implementa features siguiendo conventions
-- `tester.md` — genera y corre tests
-- `documenter.md` — actualiza README y docs
-
 ---
 
 ## 🛠️ Stack
