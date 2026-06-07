@@ -28,12 +28,17 @@ landing-gp/
 
 ## 🚀 Deploy
 
-### Cloudflare Pages (recomendado · gratis)
+### Cloudflare Pages + GitHub (recomendado · gratis · auto-deploy)
 
-1. **Dashboard**: https://dash.cloudflare.com → Pages
-2. **Crear proyecto** → "Direct Upload" → arrastra esta carpeta
-3. **Custom domain**: añadir `mmguillamon.es` (1 click)
-4. **SSL**: auto, 5-15 min
+1. **Sube el código a GitHub** (este repo)
+2. **Cloudflare Dashboard** → Workers & Pages → Pages → Create
+3. Elige **"Connect to Git"** → GitHub → autoriza
+4. Selecciona el repo `mmguillamon-landing`
+5. **Build command**: *(vacío)* · **Output dir**: `/`
+6. Save & Deploy → online en 1 min
+7. **Custom domain**: añadir `mmguillamon.es` (1 click, SSL auto)
+
+A partir de aquí, cada `git push` a `main` = deploy automático en 30 seg.
 
 ### Local (desarrollo)
 
