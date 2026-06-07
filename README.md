@@ -2,7 +2,7 @@
 
 Landing page oficial de la peña para las Fiestas de Archena.
 
-**Live:** https://mmguillamon.es
+**Live:** https://mv.mmguillamon.com
 **Repo:** https://github.com/Manumgu/Landing-MV
 
 ---
@@ -34,10 +34,10 @@ landing-gp/
 1. **Sube el código a GitHub** (este repo: `Manumgu/Landing-MV`)
 2. **Cloudflare Dashboard** → Workers & Pages → Pages → Create
 3. Elige **"Connect to Git"** → GitHub → autoriza
-4. Selecciona el repo `mmguillamon-landing`
+4. Selecciona el repo `Manumgu/Landing-MV`
 5. **Build command**: *(vacío)* · **Output dir**: `/`
 6. Save & Deploy → online en 1 min
-7. **Custom domain**: añadir `mmguillamon.es` (1 click, SSL auto)
+7. **Custom domain**: añadir `mv.mmguillamon.com` (1 click, SSL auto)
 
 A partir de aquí, cada `git push` a `main` = deploy automático en 30 seg.
 
